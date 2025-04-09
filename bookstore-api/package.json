@@ -1,0 +1,25 @@
+{
+  "name": "bookstore-api",
+  "version": "1.0.0",
+  "description": "A simple RESTful Bookstore API using Node.js, Express, and PostgreSQL with Prisma ORM",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "prisma": "prisma"
+  },
+  "keywords": ["bookstore", "api", "express", "postgresql", "prisma", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prisma": "^6.6.0"
+  }
+}
